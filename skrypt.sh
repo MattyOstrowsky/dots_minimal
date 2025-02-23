@@ -20,3 +20,6 @@ apt install bat
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 apt install ranger
+wget https://github.com/derailed/k9s/releases/download/v0.32.7/k9s_linux_amd64.deb && apt install ./k9s_linux_amd64.deb && rm k9s_linux_amd64.deb
+mkdir .kube
+ln -s /mnt/c/Users/matty/.kube/config ~/.kube/config
